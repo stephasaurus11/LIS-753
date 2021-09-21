@@ -15,11 +15,13 @@ figure img {
   height: auto;
   border: 1px solid black;
   margin-bottom: 8px;
+  text-align: center;
   }
 
 figcaption {
   font-size: 12px;
   font-family: arial;
+  text-align: center;
 }
 
 p img {
