@@ -1,0 +1,32 @@
+h1 {
+  color: #27135C;
+  font-size: 20px;
+  font-family: arial;
+  background: #b0c4de
+}
+
+p {
+  font-size: 16px;
+  font-family: arial;
+}
+
+figure img {
+  max-width: 75%;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 8px;
+  }
+
+figcaption {
+  font-size: 12px;
+  font-family: arial;
+}
+
+p img {
+  width: 50;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 32px;
+  border: 2px solid black;
+  padding: 15px;
+}
