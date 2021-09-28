@@ -31,3 +31,37 @@ p img {
   border: 2px solid black;
   padding: 15px;
 }
+
+nav ul {
+  background-color: #f0f0f0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  border-top: 1px solid #6a5acd;
+  border-bottom: 1px solid #6a5acd;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  color: #481c3c;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 16px;
+  font-family: arial;
+  display: block;
+  }
+
+nav ul li a:hover {
+  background-color: #C6B0E9;
+  text-transform: inherit;
+  font-weight: bold;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
+}
