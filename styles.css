@@ -1,26 +1,53 @@
-h1 {
+
+h1#site-title {
   color: #27135C;
-  font-size: 20px;
+  font-size: 48px;
   font-family: arial;
   text-align: center;
+}
+
+h1#article-title {
+  color: #008080;
+  font-size: 24px;
+  font-family: arial;
+  text-align: left;
+}
+
+h2 {
+  color: #008080;
+  font-size: 24px;
+  font-family: arial;
+  text-align: left;
 }
 
 p {
   font-size: 16px;
   font-family: arial;
-  text-align: center;
+  color: black;
 }
-
 figure img {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
-  border: 1px solid black;
-  margin-bottom: 8px;
+  border: 2px solid black;
+  margin-bottom: 6px;
+  }
+
+  figure.main-image {
+    border-width: 2px;
+    border-color: #4B0082;
+  }
+
+  figure.section-image {
+    border-width: 2px;
+    max-width: 300px;
+    margin-bottom: 8px;
   }
 
 figcaption {
   font-size: 12px;
   font-family: arial;
+  color: #800080;
+  font-weight: bold;
   }
 
 p img {
@@ -33,14 +60,11 @@ p img {
 }
 
 nav ul {
-  background-color: #f0f0f0;
   display: flex;
   gap: 10px;
   justify-content: center;
   list-style: none;
   padding-left: 0;
-  border-top: 1px solid #6a5acd;
-  border-bottom: 1px solid #6a5acd;
 }
 
 nav ul li {
@@ -56,10 +80,30 @@ nav ul li a {
   display: block;
   }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   background-color: #C6B0E9;
   text-transform: inherit;
   font-weight: bold;
+}
+
+header nav ul {
+  border-top: 1px solid #6a5acd;
+  border-bottom: 1px solid #6a5acd;
+}
+
+footer nav {
+}
+
+footer nav ul li a {
+  color: #ffffff;
+}
+
+footer#page-footer {
+  text-align: center;
+  padding: 28px 0;
+  margin-top: 46px;
+  background-color: #6a5acd;
+  color: #ffffff;
 }
 
 nav ul li:last-child a {
