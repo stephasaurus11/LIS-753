@@ -1,0 +1,154 @@
+body.dark-mode {
+  background: #000000;
+  color: #ffffff;
+}
+
+h1#site-title {
+  color: #660033;
+  font-size: 48px;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+}
+
+h1#article-title {
+  color: #000000;
+  font-size: 24px;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #008080;
+  font-size: 24px;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: left;
+}
+
+h3 {
+  color: #008080;
+  font-size: 24px;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  font-family: Trebuchet MS, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+p#copyright {
+  font-size: 14px;
+  font-family: Trebuchet MS, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure img {
+  border: 2px solid black;
+  margin-bottom: 6px;
+  }
+
+  figure.main-image {
+    border-width: 2px;
+    border-color: #4B0082;
+
+  }
+
+  @media all and (min-width: 768px) {
+    figure.section-image {
+      border-width: 2px;
+      max-width: 300px;
+      margin-bottom: 8px;
+    }
+
+  }
+
+figcaption {
+  font-size: 12px;
+  font-family: Trebuchet MS, sans-serif;
+  color: #800080;
+  font-weight: bold;
+  }
+
+p img {
+  width: 50;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 32px;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+ul li {
+  font-family: Trebuchet MS, sans-serif;
+  font-color: black;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media all and (min-width: 376px) {
+  nav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  }
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  color: #481c3c;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 16px;
+  font-family: Trebuchet MS, sans-serif;
+  display: block;
+  }
+
+header nav ul li a:hover {
+  background-color: #cccccc;
+  text-transform: inherit;
+  font-weight: bold;
+}
+
+header nav ul {
+  border-top: 1px solid #6a5acd;
+  border-bottom: 1px solid #6a5acd;
+}
+
+footer nav {
+}
+
+footer nav ul li a {
+  color: #330066;
+}
+
+footer nav ul li a:hover {
+  text-transform: inherit;
+  font-weight: bold;
+}
+
+footer#page-footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 46px;
+  background-color: #cccccc;
+  color: #000000;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
+}
